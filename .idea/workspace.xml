@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/week6/write_csv.py" line="27" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="564ca487-cf30-49ac-bb75-6502f2dbf553" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/processed/avengers_processed.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/week6/read_csv.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/week6/read_csv_dict.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/week6/write_csv.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,19 +32,55 @@
       <file leaf-file-name="convert_to_utf8.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/week6/convert_to_utf8.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+            <state relative-caret-position="420">
+              <caret line="20" column="34" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="read_csv.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/week6/read_csv.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="read_csv_dict.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/week6/read_csv_dict.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="18" column="41" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="18" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="write_csv.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/week6/write_csv.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="15" column="41" lean-forward="false" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,14 +104,17 @@
         <option value="$PROJECT_DIR$/Week1/Week+1+Exercises.py" />
         <option value="$PROJECT_DIR$/Week1/Programming Fundamentals (Assignment).ipynb" />
         <option value="$PROJECT_DIR$/week6/convert_to_utf8.py" />
+        <option value="$PROJECT_DIR$/week6/read_csv.py" />
+        <option value="$PROJECT_DIR$/week6/read_csv_dict.py" />
+        <option value="$PROJECT_DIR$/week6/write_csv.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2391" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="2806" />
+    <option name="y" value="233" />
+    <option name="width" value="1726" />
+    <option name="height" value="908" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -93,6 +139,11 @@
               <item name="DSC510" type="b2602c69:ProjectViewProjectNode" />
               <item name="DSC510" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DSC510" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSC510" type="462c0819:PsiDirectoryNode" />
+              <item name="week6" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -103,6 +154,11 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dan Siegel\Desktop\Classes\DSC510\week6" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -116,7 +172,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.convert_to_utf8">
+  <component name="RunManager" selected="Python.write_csv">
     <configuration name="Week+1+Exercises" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -148,19 +204,79 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="DSC510" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week6/convert_to_utf8.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="PARAMETERS" value="&quot;C:\Users\Dan Siegel\Desktop\Classes\DSC510\data\raw\avengers.csv&quot; &quot;C:\Users\Dan Siegel\Desktop\Classes\DSC510\data\interim\avengersUTF8.csv&quot;" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <list size="2">
+    <configuration name="read_csv" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DSC510" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week6/read_csv.py" />
+      <option name="PARAMETERS" value="&quot;C:\Users\Dan Siegel\Desktop\Classes\DSC510\data\interim\avengersUTF8.csv&quot;" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="read_csv_dict" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DSC510" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week6/read_csv_dict.py" />
+      <option name="PARAMETERS" value="&quot;C:\Users\Dan Siegel\Desktop\Classes\DSC510\data\interim\avengersUTF8.csv&quot;" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="write_csv" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DSC510" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week6/write_csv.py" />
+      <option name="PARAMETERS" value="&quot;C:\Users\Dan Siegel\Desktop\Classes\DSC510\data\interim\avengersUTF8.csv&quot; &quot;C:\Users\Dan Siegel\Desktop\Classes\DSC510\data\processed\avengers_processed.csv&quot;" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.Week+1+Exercises" />
       <item index="1" class="java.lang.String" itemvalue="Python.convert_to_utf8" />
+      <item index="2" class="java.lang.String" itemvalue="Python.read_csv_dict" />
+      <item index="3" class="java.lang.String" itemvalue="Python.read_csv" />
+      <item index="4" class="java.lang.String" itemvalue="Python.write_csv" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.convert_to_utf8" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Week+1+Exercises" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.write_csv" />
+        <item index="1" class="java.lang.String" itemvalue="Python.read_csv_dict" />
+        <item index="2" class="java.lang.String" itemvalue="Python.read_csv" />
+        <item index="3" class="java.lang.String" itemvalue="Python.convert_to_utf8" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Week+1+Exercises" />
       </list>
     </recent_temporary>
   </component>
@@ -173,10 +289,10 @@
   <component name="ToolWindowManager">
     <frame x="2391" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17874141" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17874141" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998747" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -197,7 +313,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="completed UTF8 conversion file. Brought in week6 materials" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -222,6 +340,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Week1/Programming Fundamentals (Assignment).ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -231,17 +357,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/week6/convert_to_utf8.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        <state relative-caret-position="420">
+          <caret line="20" column="34" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/week6/read_csv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week6/read_csv_dict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="41" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="18" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week6/write_csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="15" column="41" lean-forward="false" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
