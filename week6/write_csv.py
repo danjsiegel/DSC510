@@ -39,5 +39,6 @@ def readRows(inputCSV):
 if __name__ == "__main__":
     csvToRead = argumentExists(1)
     csvToCreate = argumentExists(2)
-    getCSV = readRows(csvToRead)
-    processedCSV(csvToCreate, getCSV[0], getCSV[1])
+    if csvToRead and csvToCreate:
+        getCSV = readRows(csvToRead)
+        processedCSV(csvToCreate, getCSV[0], getCSV[1])
