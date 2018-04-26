@@ -7,6 +7,11 @@ def argumentExists(index):
         return ''
     else:
         return sys.argv[index]
+
+##lambda to sort list and also to return. Sorts in place and also gives you a copy if wanted
+def lambsorter(listtosort):
+    listtosort.sort(key=lambda x: x[2], reverse=True)
+    return listtosort
 #Cleaning Funcs
 ##Clean Headers
 def fixHeader(headerToFix):

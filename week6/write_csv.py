@@ -16,7 +16,6 @@ def fixHeader(headerToFix):
     corr_category = corr_category.replace('/','_')
     return corr_category
 
-
 def processedCSV(output, headers, input):
     with open(output, 'w', newline='') as written:
         dw = csv.DictWriter(written, fieldnames=headers)

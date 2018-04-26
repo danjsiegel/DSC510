@@ -10,9 +10,6 @@ def readCSVData(inputCSV):
     data.pop(0) #pops off headers
     for rows in data:
         rows[2]=int(rows[2])
-    def lambsorter(listtosort):
-        listtosort.sort(key=lambda x: x[2], reverse=True)
-        return listtosort
     lambsorter(data)
     topAvengers = data[0:10]
     return topAvengers
@@ -21,7 +18,7 @@ def markdownWriter(outputMDFile, topTenAvengers):
     with open(outputMDFile, 'w') as mdWriter:
         for record in range(len(topTenAvengers)):
             mdWriter.writelines(("#",str((record+ 1))+". ", topTenAvengers[record][1],'\n\n'))
-            mdWriter.writelines(("* Number of Appearances:",str(topTenAvengers[record][2]),'\n'))
+            mdWriter.writelines(("*Number of Appearances:",str(topTenAvengers[record][2]),'\n'))
             mdWriter.writelines(("*Year Joined:",str(topTenAvengers[record][7]),'\n'))
             mdWriter.writelines(("*Years Since Joining:", str(topTenAvengers[record][8]),'\n'))
             mdWriter.writelines(("*URL:",topTenAvengers[record][0],'\n\n'))
