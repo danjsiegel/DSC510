@@ -15,14 +15,14 @@ def readRows(inputCSV):
 
 def processedCSV(output, headers, input):
     with open(output, 'w', newline='') as written:
-        dw = csv.DictWriter(written, fieldnames=headers)
+        newCSV = csv.DictWriter(written, fieldnames=headers)
         firstRow = {}
         for i in headers:
             firstRow[i] = i
-        dw.writerow(firstRow)
+        newCSV.writerow(firstRow)
         for row in input:
             cleanRecord(row, headers)
-            dw.writerow(row)
+            newCSV.writerow(row)
 
 if __name__ == "__main__":
     csvToRead = argumentExists(1)

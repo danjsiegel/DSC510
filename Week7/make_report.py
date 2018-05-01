@@ -17,12 +17,12 @@ def readCSVData(inputCSV):
 def markdownWriter(outputMDFile, topTenAvengers):
     with open(outputMDFile, 'w') as mdWriter:
         for record in range(len(topTenAvengers)):
-            mdWriter.writelines(("#",str((record+ 1))+". ", topTenAvengers[record][1],'\n\n'))
-            mdWriter.writelines(("*Number of Appearances:",str(topTenAvengers[record][2]),'\n'))
-            mdWriter.writelines(("*Year Joined:",str(topTenAvengers[record][7]),'\n'))
-            mdWriter.writelines(("*Years Since Joining:", str(topTenAvengers[record][8]),'\n'))
-            mdWriter.writelines(("*URL:",topTenAvengers[record][0],'\n\n'))
-            mdWriter.writelines(("## Notes\n\n"+topTenAvengers[record][20],'\n\n'))
+            mdWriter.writelines(("#",str((record+ 1))+". ", topTenAvengers[record][1], '\n\n'))
+            mdWriter.writelines(("*Number of Appearances:", str(topTenAvengers[record][2]), '\n'))
+            mdWriter.writelines(("*Year Joined:", str(topTenAvengers[record][7]), '\n'))
+            mdWriter.writelines(("*Years Since Joining:", str(topTenAvengers[record][8]), '\n'))
+            mdWriter.writelines(("*URL:", topTenAvengers[record][0], '\n\n'))
+            mdWriter.writelines(("## Notes\n\n"+topTenAvengers[record][20], '\n\n'))
 
 if __name__ == "__main__":
     inputCSV = argumentExists(1)
