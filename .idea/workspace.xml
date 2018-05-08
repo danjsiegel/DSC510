@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="564ca487-cf30-49ac-bb75-6502f2dbf553" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/week9/avenger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week9/avenger.py" beforeDir="false" afterPath="$PROJECT_DIR$/week9/avenger.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,8 +19,26 @@
       <file leaf-file-name="avenger.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/week9/avenger.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+            <state relative-caret-position="731">
+              <caret line="107" column="16" lean-forward="true" selection-start-line="107" selection-start-column="16" selection-end-line="107" selection-end-column="16" />
+              <folding>
+                <element signature="e#291#436#0" />
+                <element signature="e#479#641#0" />
+                <element signature="e#244#346#2" />
+                <element signature="e#678#858#0" />
+                <element signature="e#892#1116#0" />
+                <element signature="e#1143#1372#0" />
+                <element signature="e#665#793#2" />
+                <element signature="e#1412#1581#0" />
+                <element signature="e#1365#1519#0" />
+                <element signature="e#2097#2324#0" />
+                <element signature="e#2174#2417#0" />
+                <element signature="e#2109#2249#0" />
+                <element signature="e#2750#2973#0" />
+                <element signature="e#2979#3105#0" />
+                <element signature="e#3019#3236#0" />
+                <element signature="e#3023#3152#1" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,12 +118,6 @@
               <item name="DSC510" type="b2602c69:ProjectViewProjectNode" />
               <item name="DSC510" type="462c0819:PsiDirectoryNode" />
               <item name="Week7" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DSC510" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DSC510" type="462c0819:PsiDirectoryNode" />
-              <item name="Week7" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DSC510" type="b2602c69:ProjectViewProjectNode" />
@@ -301,7 +312,7 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24917382" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32833788" />
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.32833788" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33651227" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23160763" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -343,7 +354,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="25" />
+      <option name="time" value="27" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -722,8 +733,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/week9/avenger.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        <state relative-caret-position="731">
+          <caret line="107" column="16" lean-forward="true" selection-start-line="107" selection-start-column="16" selection-end-line="107" selection-end-column="16" />
+          <folding>
+            <element signature="e#291#436#0" />
+            <element signature="e#479#641#0" />
+            <element signature="e#244#346#2" />
+            <element signature="e#678#858#0" />
+            <element signature="e#892#1116#0" />
+            <element signature="e#1143#1372#0" />
+            <element signature="e#665#793#2" />
+            <element signature="e#1412#1581#0" />
+            <element signature="e#1365#1519#0" />
+            <element signature="e#2097#2324#0" />
+            <element signature="e#2174#2417#0" />
+            <element signature="e#2109#2249#0" />
+            <element signature="e#2750#2973#0" />
+            <element signature="e#2979#3105#0" />
+            <element signature="e#3019#3236#0" />
+            <element signature="e#3023#3152#1" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -10,6 +10,16 @@ class Avenger:
         self.data = record
         self.assignedURL = self.data['url']
         self.name = self.data['name_alias']
+        self.appearancesInComics = int(self.data['appearances'])
+        self.current_status = self.boolParser(self.data['current'])
+        self.avengerGender = self.data['gender']
+        self.notesData = (self.data['notes'].strip('\n'))
+        self.joinYear = int(self.data['year'])
+        self.dateJoined = datetime.date(int(self.data['year']), self.getMonth(self.data['full_reserve_avengers_intro']),1)
+        diff = self.dateDiffCalculator()
+        self.days = int(diff/datetime.timedelta(days=1))
+        self.yearsSince = int(diff/datetime.timedelta(days=365))
+
     def boolParser(self, toBoolValue):
         if toBoolValue == 'YES':
             return True
@@ -19,57 +29,40 @@ class Avenger:
             return None
     def url(self):
         """
-
         Returns:
             str: The URL of the comic character on the Marvel Wikia
-
         """
-
         return self.assignedURL
-
     def name_alias(self):
         """
-
         Returns:
             str: The full name or alias of the character
-
         """
-
         return self.name
-
     def appearances(self):
         """
-
         Returns:
             int: The number of comic books that character appeared in as of April 30
-
         """
-        return int(self.data['appearances'])
-
+        return self.appearancesInComics
     def is_current(self):
         """
-
         Returns:
             bool: Is the member currently active on an avengers affiliated team? (True/False)
-
         """
-        return self.boolParser(self.data['current'])
+        return self.current_status
     def gender(self):
         """
-
         Returns:
             str: The recorded gender of the character
-
         """
-        return self.data['gender']
+        return self.avengerGender
     def year(self):
         """
-
         Returns:
             int: The year the character was introduced as a full or reserve member of the Avengers
-
         """
-        return int(self.data['year'])
+        return self.joinYear
     def getMonth(self, monthToParse):
         monthDict = {'Jan':1, 'Feb':2, "Mar":3, "Apr":4, "May":5, "Jun":6, "Jul":7, "Aug":8, "Sep":9, "Oct":10, "Nov":11, "Dec":12}
         for key in monthDict:
@@ -77,13 +70,10 @@ class Avenger:
                 return monthDict[key]
     def date_joined(self):
         """
-
         Returns:
             datetime.date: The date the character joined
-
         """
-        return datetime.date(int(self.data['year']), self.getMonth(self.data['full_reserve_avengers_intro']),1)
-
+        return self.dateJoined
     def dateDiffCalculator(self):
         joinDate = self.date_joined()
         today = datetime.datetime.now().date()
@@ -91,49 +81,34 @@ class Avenger:
         return difference
     def days_since_joining(self):
         """
-
         Returns:
             int: The number of integer days since the character joined
-
         """
-        days = self.dateDiffCalculator()
-        days = int(days/datetime.timedelta(days=1))
-        return days
+        return self.days
     def years_since_joining(self):
         """
-
         Returns:
             int: The number of integer years since the character joined
-
         """
-        days = self.dateDiffCalculator()
-        days = int(days/datetime.timedelta(days=365))
-        return days
+        return self.yearsSince
     def notes(self):
         """STRIP OFF TRAILING NEWLINES AND SPACES
-
         Returns:
             str: Descriptions of deaths and resurrections.
-
         """
-        return (self.data['notes'].strip('\n'))
+        return self.notesData
     def __str__(self):
         """
-
         Returns:
             str: A human-readable value for this character
-
         """
-        return self.name
-
+        return '%s' % self.name
     def __repr__(self):
         """
-
         Returns:
             str: String representation of object.  Useful for debugging.
         """
         return 'Avenger(name_alias=%s, url=%s)' % (self.name, self.assignedURL)
-
 if __name__ == '__main__':
     pym_record = {
         'appearances': '1269',
