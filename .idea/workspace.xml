@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="564ca487-cf30-49ac-bb75-6502f2dbf553" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/week9/avenger.py" beforeDir="false" afterPath="$PROJECT_DIR$/week9/avenger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week9/avenger/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week9/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week9/Dan Siegel - Object Oriented Programming (Assignment).ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/week9/Dan Siegel - Object Oriented Programming (Assignment).ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week9/avenger.py" beforeDir="false" afterPath="$PROJECT_DIR$/week9/avenger/avenger.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,28 +21,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="avenger.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/week9/avenger.py">
+      <file leaf-file-name="avenger.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/week9/avenger/avenger.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="107" column="16" lean-forward="true" selection-start-line="107" selection-start-column="16" selection-end-line="107" selection-end-column="16" />
+            <state relative-caret-position="51">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/week9/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="make_report.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week7/make_report.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
-                <element signature="e#291#436#0" />
-                <element signature="e#479#641#0" />
-                <element signature="e#244#346#2" />
-                <element signature="e#678#858#0" />
-                <element signature="e#892#1116#0" />
-                <element signature="e#1143#1372#0" />
-                <element signature="e#665#793#2" />
-                <element signature="e#1412#1581#0" />
-                <element signature="e#1365#1519#0" />
-                <element signature="e#2097#2324#0" />
-                <element signature="e#2174#2417#0" />
-                <element signature="e#2109#2249#0" />
-                <element signature="e#2750#2973#0" />
-                <element signature="e#2979#3105#0" />
-                <element signature="e#3019#3236#0" />
-                <element signature="e#3023#3152#1" />
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -46,7 +54,7 @@
       <file leaf-file-name="dateUtility.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/dateUtility.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="102">
               <caret line="6" column="33" selection-start-line="3" selection-start-column="4" selection-end-line="6" selection-end-column="33" />
             </state>
           </provider>
@@ -86,14 +94,16 @@
         <option value="$PROJECT_DIR$/Week7/util/util.py" />
         <option value="$PROJECT_DIR$/Week7/process_csv.py" />
         <option value="$PROJECT_DIR$/week9/avenger.py" />
+        <option value="$PROJECT_DIR$/week9/__init__.py" />
+        <option value="$PROJECT_DIR$/week9/test.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
+    <option name="x" value="1891" />
     <option name="y" value="-10" />
-    <option name="width" value="1939" />
-    <option name="height" value="1049" />
+    <option name="width" value="1935" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -101,7 +111,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -122,12 +131,25 @@
             <path>
               <item name="DSC510" type="b2602c69:ProjectViewProjectNode" />
               <item name="DSC510" type="462c0819:PsiDirectoryNode" />
+              <item name="Week7" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DSC510" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSC510" type="462c0819:PsiDirectoryNode" />
               <item name="week9" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DSC510" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSC510" type="462c0819:PsiDirectoryNode" />
+              <item name="week9" type="462c0819:PsiDirectoryNode" />
+              <item name="avenger" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -143,11 +165,12 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dan Siegel\Desktop\Classes\DSC510\week9\avenger" />
+      <recent name="C:\Users\Dan Siegel\Desktop\Classes\DSC510\modules" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Dan Siegel\Desktop\Classes\DSC510\week6" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Dan Siegel\Desktop\Classes\DSC510\modules" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -162,7 +185,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.avenger">
+  <component name="RunManager" selected="Python.test">
     <configuration name="avenger" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DSC510" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -175,7 +198,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week9/avenger.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Dan Siegel\Desktop\Classes\DSC510\week9\avenger.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -217,6 +240,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DSC510" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week9" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week9/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="util" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DSC510" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -235,38 +276,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="write_csv" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DSC510" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week6" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week6/write_csv.py" />
-      <option name="PARAMETERS" value="&quot;C:\Users\Dan Siegel\Desktop\Classes\DSC510\data\interim\avengersUTF8.csv&quot;" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list>
-      <item itemvalue="Python.write_csv" />
       <item itemvalue="Python.process_csv" />
       <item itemvalue="Python.make_report" />
       <item itemvalue="Python.util" />
       <item itemvalue="Python.avenger" />
+      <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.avenger" />
         <item itemvalue="Python.process_csv" />
         <item itemvalue="Python.make_report" />
         <item itemvalue="Python.util" />
-        <item itemvalue="Python.write_csv" />
       </list>
     </recent_temporary>
   </component>
@@ -306,13 +329,12 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="1913" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24917382" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2485129" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32833788" />
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.32833788" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23160763" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23160763" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -327,16 +349,16 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24917382" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32833788" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33651227" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32833788" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.32833788" />
     </layout-to-restore>
@@ -350,21 +372,21 @@
     <MESSAGE value="all utis implemented for assignment" />
     <MESSAGE value="testing post anaconda, python, and pycharm reinstall. everything working as expected now." />
     <MESSAGE value="worked on midterm work. Think it's mostly done, unless I'm missing something. TODO: go through miderm requirements and check that it does each thing required." />
-    <option name="LAST_COMMIT_MESSAGE" value="worked on midterm work. Think it's mostly done, unless I'm missing something. TODO: go through miderm requirements and check that it does each thing required." />
+    <MESSAGE value="Completed pep8 fixes and checked code behavior" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed pep8 fixes and checked code behavior" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="27" />
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="28" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Week7/util/util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week7/make_report.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -386,9 +408,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -396,9 +415,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -685,7 +701,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/dateUtility.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="102">
           <caret line="6" column="33" selection-start-line="3" selection-start-column="4" selection-end-line="6" selection-end-column="33" />
         </state>
       </provider>
@@ -704,23 +720,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week7/make_report.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week7/process_csv.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -731,28 +734,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/week9/avenger.py">
+    <entry file="file://$PROJECT_DIR$/week9/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week9/avenger/avenger.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="107" column="16" lean-forward="true" selection-start-line="107" selection-start-column="16" selection-end-line="107" selection-end-column="16" />
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week7/make_report.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
-            <element signature="e#291#436#0" />
-            <element signature="e#479#641#0" />
-            <element signature="e#244#346#2" />
-            <element signature="e#678#858#0" />
-            <element signature="e#892#1116#0" />
-            <element signature="e#1143#1372#0" />
-            <element signature="e#665#793#2" />
-            <element signature="e#1412#1581#0" />
-            <element signature="e#1365#1519#0" />
-            <element signature="e#2097#2324#0" />
-            <element signature="e#2174#2417#0" />
-            <element signature="e#2109#2249#0" />
-            <element signature="e#2750#2973#0" />
-            <element signature="e#2979#3105#0" />
-            <element signature="e#3019#3236#0" />
-            <element signature="e#3023#3152#1" />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week9/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
