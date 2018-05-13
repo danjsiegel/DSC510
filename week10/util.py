@@ -23,5 +23,9 @@ def get_year(month_parse):
         if key in month_parse:
             return month_dict[key]
 
+
 def get_date_joined(year, month_to_parse):
-    return datetime.date(int(year), get_year(month_to_parse), 1)
+    try:
+        return datetime.date(int(year), get_year(month_to_parse), 1)
+    except:
+        return None
