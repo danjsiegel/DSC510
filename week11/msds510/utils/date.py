@@ -17,3 +17,11 @@ def datediffcalculator(joinDate):
     today = datetime.datetime.now().date()
     difference = today - joinDate
     return difference
+
+def getDJ(inMonth, inYear):
+    try:
+        returnYear = datetime.date(int(inYear), getmonth(inMonth), 1)
+    except:
+        return
+    else:
+        return returnYear

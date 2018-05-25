@@ -18,13 +18,7 @@ class Avenger:
         self.avengerGender = self.data['gender']
         self.notesData = (self.data['notes'].strip('\n'))
         self.joinYear = int(self.data['year'])
-        self.year = int(self.data['year'])
-        self.full_res = self.data['full_reserve_avengers_intro']
-        if self.year and self.full_res:
-            self.dateJoined = datetime.date(int(self.data['year']),
-                                            getmonth(self.data['full_reserve_avengers_intro']), 1)
-        else:
-            self.dateJoined = datetime.date(int(self.data['year']), 1, 1)
+        self.dateJoined = getDJ(self.data['full_reserve_avengers_intro'], self.joinYear)
         diff = datediffcalculator(self.dateJoined)
         self.days = int(diff/datetime.timedelta(days=1))
         self.yearsSince = int(diff/datetime.timedelta(days=365))
@@ -77,7 +71,8 @@ class Avenger:
         Returns:
             int: The year the character was introduced as a full or reserve member of the Avengers
         """
-        return self.joinYear
+        print('join year ', self.joinYear)
+        #return self.joinYear
 
     def date_joined(self):
         """
@@ -123,3 +118,40 @@ class Avenger:
 
 
 
+if __name__ == '__main__':
+    pym_record = {
+        'appearances': '1269',
+        'current': 'YES',
+        'death1': 'YES',
+        'death2': '',
+        'death3': '',
+        'death4': '',
+        'death5': '',
+        'full_reserve_avengers_intro': 'Sep-63',
+        'gender': 'MALE',
+        'honorary': 'Full',
+        'name_alias': 'Henry Jonathan "Hank" Pym',
+        'notes': 'Merged with Ultron in Rage of Ultron Vol. 1. A funeral was held. \n',
+        'probationary_introl': '',
+        'return1': 'NO',
+        'return2': '',
+        'return3': '',
+        'return4': '',
+        'return5': '',
+        'url': 'http://marvel.wikia.com/Henry_Pym_(Earth-616)',
+        'year': '1963',
+        'years_since_joining': '52'
+    }
+    hank_pym = Avenger(pym_record)
+
+    print('Name/Alias: {}'.format(hank_pym.name_alias()))
+    print('URL: {}'.format(hank_pym.url()))
+    print('Is Current?: {}'.format(hank_pym.is_current()))
+    print('Gender: {}'.format(hank_pym.gender()))
+    print('Year Joined: {}'.format(hank_pym.year()))
+    print('Date Joined: {}'.format(hank_pym.date_joined()))
+    print('Days Since Joined: {}'.format(hank_pym.days_since_joining()))
+    print('Years Since Joined: {}'.format(hank_pym.years_since_joining()))
+    print('Notes: {}'.format(hank_pym.notes()))
+    print('__str__: {}'.format(hank_pym))
+    print('__repr__: {}'.format(hank_pym.__repr__()))
