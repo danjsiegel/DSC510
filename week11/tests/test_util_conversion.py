@@ -13,11 +13,11 @@ class UtilMethods(unittest.TestCase):
         self.bool_no = 'NO'
         self.bool_other = 'asdfasdfasd'
 
-   # def test_argumentExists(self):
-   #     self.assertEqual('Test', argumentExists(1))
+    def test_argumentExists(self):
+        self.assertEqual('Test', argumentExists(1))
 
-  #  def test_blank_argumentExists(self):
-   #     self.assertIsNone(argumentExists(2))
+    def test_blank_argumentExists(self):
+        self.assertIsNone(argumentExists(45))
 
     def test_make_nice_name_no_replacements(self):
         fixed_header = make_nice_name(self.header_to_fix)
@@ -42,3 +42,6 @@ class UtilMethods(unittest.TestCase):
 
     def test_to_bool_blank(self):
         self.assertIsNone(to_bool(self.bool_other))
+
+if __name__ == '__main__':
+    unittest.main()

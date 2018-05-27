@@ -38,3 +38,6 @@ class dateMethods(unittest.TestCase):
 
     def test_to_int_float(self):
         self.assertEqual(to_int(11.6), 11)
+
+if __name__ == '__main__':
+    unittest.main()
