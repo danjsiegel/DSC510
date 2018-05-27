@@ -43,6 +43,8 @@ class Avenger:
                    'death3': self.death3, 'return3': self.return3, 'death4': self.death4, 'return4': self.return4,
                    'death5': self.death5, 'return5': self.return5, 'notes': self.notesData}
 
+
+
     def return_dict(self):
         '''
         :return: dictionary of all data with expected headers
@@ -177,3 +179,6 @@ if __name__ == '__main__':
     print('Notes: {}'.format(hank_pym.notes()))
     print('__str__: {}'.format(hank_pym))
     print('__repr__: {}'.format(hank_pym.__repr__()))
+
+
+

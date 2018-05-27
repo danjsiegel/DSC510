@@ -27,5 +27,6 @@ def processedCSV(output, headers, input):
 if __name__ == "__main__":
     csvToRead = argumentExists(1)
     csvToCreate = argumentExists(2)
-    csvData = readCSVData(csvToRead)
-    processedCSV(csvToCreate, csvData[0], csvData[1])
+    if csvToRead and csvToCreate:
+        csvData = readCSVData(csvToRead)
+        processedCSV(csvToCreate, csvData[0], csvData[1])

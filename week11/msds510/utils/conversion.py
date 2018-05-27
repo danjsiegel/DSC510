@@ -8,11 +8,15 @@ def argumentExists(index):
     try:
         sys.argv[index]
     except IndexError:
-        return ''
+        return None
     else:
         return sys.argv[index]
 
 def make_nice_name(headerToFix):
+    '''
+    :param headerToFix: Raw header
+    :return: Header in lowercase, removing special characters, and whitespace
+    '''
     headerToFix = headerToFix.lower()
     headerToFix = headerToFix.strip('\n').strip('?').rstrip().lstrip()
     headerToFix = headerToFix.replace('/','_').replace(' ', '_')

@@ -1,8 +1,8 @@
 import unittest
-from .util import *
+from msds510.avenger import *
 
 
-class UtilityMethods(unittest.TestCase):
+class AvengerMethods(unittest.TestCase):
 
     def setUp(self):
         self.test_record = {
@@ -28,57 +28,51 @@ class UtilityMethods(unittest.TestCase):
             'year': '1963',
             'years_since_joining': '52'
         }
-        test_class = Avenger(self.test_record)
+        self.test_class = Avenger(self.test_record)
 
-    def data_is_dict(self):
-        self.assertTrue(type(is_int) == int)
+    def test_return_dict_is_dict(self):
+        returned_dict = self.test_class.return_dict()
+        self.assertTrue(type(returned_dict) == dict)
 
-    def test_float_str(self):
-        is_int = to_int(11.5)
-        self.assertTrue(type(is_int) == int)
+    def test_url(self):
+        self.assertIsNotNone(self.test_class.name_alias())
 
-    def test_invalid_str(self):
-        self.assertIsNone(to_int("This Is Not an Int"))
+    def test_appearances(self):
+        self.assertTrue(type(self.test_class.appearances()) == int)
 
-    def test__int_list(self):
-        is_int = to_int(['a', 'b', 'c'])
-        self.assertFalse(type(is_int) == int)
+    def test_current_status(self):
+        self.assertTrue(type(self.test_class.is_current()) == bool)
 
-    def test_int_empty(self):
+    def test_gender(self):
+        self.assertIn(self.test_class.gender(), ['MALE', 'FEMALE'])
+
+    def test_year(self):
+        self.assertTrue(type(self.test_class.year()) == int)
+
+    def test_date_j(self):
+        self.assertTrue(str(self.test_class.date_joined()) == '1963-09-01')
+
+    def test_days_j(self):
+        self.assertTrue(type(self.test_class.days_since_joining()) == int)
+
+    def test_years_j(self):
+        self.assertTrue(type(self.test_class.years_since_joining()) == int)
+
+    def test_notes(self):
+        self.assertTrue(type(self.test_class.notes()) == str)
+
+    def test__str__(self):
+        testStr = self.test_class.name_alias()
+        self.assertEqual(testStr, self.test_class.__str__())
+
+    def test__repr__(self):
+        testRpr = 'Avenger(name_alias=Henry Jonathan "Hank" Pym, url=http://marvel.wikia.com/Henry_Pym_(Earth-616))'
+        self.assertEqual(testRpr, self.test_class.__repr__())
+
+    def test_avenger_records(self):
         with self.assertRaises(TypeError):
-            to_int()
-
-    def test_gv_missing_arg(self):
-        with self.assertRaises(TypeError):
-            get_value(self.x)
-
-    def test_gv_missing_dict_key(self):
-        self.assertIsNone(get_value(self.x, self.invalidxy_val))
-
-    def test_gv_missing_list_value(self):
-        self.assertIsNone(get_value(self.y, self.invalidxy_val))
-
-    def test_gv_valid_dic_key(self):
-        self.assertTrue(get_value(self.x, self.validxy_val) == self.x[self.validxy_val])
-
-    def test_gv_valid_list(self):
-        self.assertTrue(self.y[get_value(self.y, self.validxy_val)] == self.validxy_val)
-
-    def test_gdj_valid_ym(self):
-        self.assertEqual(get_date_joined(self.valid_year_str,self.valid_month), self.vaid_date)
-
-    def test_gdj_invalidm_valid_y(self):
-        self.assertIsNone(get_date_joined(self.valid_year_str, self.invalid_month))
-
-    def test_gdj_invalid_y_valid_m(self):
-        self.assertIsNone(get_date_joined(self.invalid_year_str, self.valid_month))
-
-    def test_gdj_invalid_ym(self):
-        self.assertIsNone(get_date_joined(self.invalid_year_str, self.invalid_month))
-
-    def test_gdj_invalid_args(self):
-        with self.assertRaises(TypeError):
-            get_date_joined(self.valid_year_str)
+            test_record = Avenger()
 
 if __name__ == '__main__':
     unittest.main()
+
