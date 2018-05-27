@@ -18,3 +18,15 @@ def make_nice_name(headerToFix):
     headerToFix = headerToFix.replace('/','_').replace(' ', '_')
     return headerToFix
 
+def to_bool(stringToMakeBool):
+    '''
+    :param stringToMakeBool: Potential boolean value
+    :return: True, False or None
+    '''
+    stringToMakeBool=stringToMakeBool.lower()
+    if stringToMakeBool == "yes":
+        return True
+    elif stringToMakeBool == "no":
+        return False
+    else:
+        return None

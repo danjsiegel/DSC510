@@ -9,19 +9,32 @@ def getmonth(monthtoparse):
     for key in monthdict:
         if key in monthtoparse:
             return monthdict[key]
+    return 1
 def datediffcalculator(joinDate):
     '''
     :param joinDate: Date to calculate time elapsed since
     :return: Time elapsed since joinDate
     '''
-    today = datetime.datetime.now().date()
-    difference = today - joinDate
-    return difference
+    try:
+        today = datetime.datetime.now().date()
+        joinDate
+        difference = today - joinDate
+        return difference
+    except:
+        return None
 
 def getDJ(inMonth, inYear):
+    '''
+    :param inMonth: If month available
+    :param inYear: Year Avenger Returned
+    :return: DateTime for first of the month of the year they joined, or first of the year
+    '''
     try:
         returnYear = datetime.date(int(inYear), getmonth(inMonth), 1)
     except:
-        return
+        returnYear = datetime.date(int(inYear), 1, 1)
     else:
         return returnYear
+
+def to_int(stringToMakeInt):
+    return int(stringToMakeInt)

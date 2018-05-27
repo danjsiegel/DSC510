@@ -14,22 +14,40 @@ class Avenger:
         self.assignedURL = self.data['url']
         self.name = self.data['name_alias']
         self.appearancesInComics = int(self.data['appearances'])
-        self.current_status = self.bool_parser(self.data['current'])
+        self.current_status = to_bool(self.data['current'])
         self.avengerGender = self.data['gender']
         self.notesData = (self.data['notes'].strip('\n'))
         self.joinYear = int(self.data['year'])
-        self.dateJoined = getDJ(self.data['full_reserve_avengers_intro'], self.joinYear)
+        self.first_appearance = self.data['full_reserve_avengers_intro']
+        self.dateJoined = datetime.date(int(self.data['year']), getmonth(self.data['full_reserve_avengers_intro']), 1)
         diff = datediffcalculator(self.dateJoined)
         self.days = int(diff/datetime.timedelta(days=1))
         self.yearsSince = int(diff/datetime.timedelta(days=365))
+        self.probationary_introl = self.data["probationary_introl"]
+        self.death1 = to_bool(self.data["death1"])
+        self.death2 = to_bool(self.data["death2"])
+        self.death3 = to_bool(self.data["death3"])
+        self.death4 = to_bool(self.data["death4"])
+        self.death5 = to_bool(self.data["death5"])
+        self.honorary = to_bool(self.data["honorary"])
+        self.return1 = to_bool(self.data["return1"])
+        self.return2 = to_bool(self.data["return2"])
+        self.return3 = to_bool(self.data["return3"])
+        self.return4 = to_bool(self.data["return4"])
+        self.return5 = to_bool(self.data["return5"])
+        self.avengerDict = {'url': self.assignedURL, 'name_alias': self.name, 'appearances': self.appearancesInComics,
+                   'current': self.current_status, 'gender': self.avengerGender,  'probationary_introl':
+                    self.probationary_introl, 'full_reserve_avengers_intro': self.first_appearance,
+                   'year': self.joinYear, 'years_since_joining': self.yearsSince, 'honorary': self.honorary,
+                   'death1': self.death1, 'return1': self.return1, 'death2': self.death2, 'return2': self.return2,
+                   'death3': self.death3, 'return3': self.return3, 'death4': self.death4, 'return4': self.return4,
+                   'death5': self.death5, 'return5': self.return5, 'notes': self.notesData}
 
-    def bool_parser(self, toboolvalue):
-        if toboolvalue == 'YES':
-            return True
-        elif toboolvalue == 'No':
-            return False
-        else:
-            return None
+    def return_dict(self):
+        '''
+        :return: dictionary of all data with expected headers
+        '''
+        return self.avengerDict
 
     def url(self):
         """
@@ -71,8 +89,13 @@ class Avenger:
         Returns:
             int: The year the character was introduced as a full or reserve member of the Avengers
         """
-        print('join year ', self.joinYear)
-        #return self.joinYear
+        return self.joinYear
+
+    def getmonth(self, monthtoparse):
+        monthdict = {'Jan': 1, 'Feb': 2, "Mar": 3, "Apr": 4, "May": 5, "Jun": 6, "Jul": 7, "Aug": 8, "Sep": 9, "Oct": 10, "Nov": 11, "Dec": 12}
+        for key in monthdict:
+            if key in monthtoparse:
+                return monthdict[key]
 
     def date_joined(self):
         """
@@ -115,7 +138,6 @@ class Avenger:
             str: String representation of object.  Useful for debugging.
         """
         return 'Avenger(name_alias=%s, url=%s)' % (self.name, self.assignedURL)
-
 
 
 if __name__ == '__main__':
